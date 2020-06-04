@@ -1,0 +1,188 @@
+carousel-item active
+{
+    height: 200px;
+    margin-top: auto;
+}
+h2 {
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 1px solid #000; 
+    line-height: 0.1em;
+    margin: 10px 0 20px; 
+ } 
+ 
+ h2 span { 
+     background:#fff; 
+     padding:0 10px; 
+ }
+ .card
+ {
+     width: 150px;
+     height: 300px  !important ;
+ }
+ .card-text
+ {
+     font-weight: bold;
+ }
+ .btn-primary{
+  width: 100%;
+  background-color: #000 !important;
+ }
+ .container{
+     margin-top: 30px;
+ }
+ .blog .carousel-indicators {
+	left: 0;
+	top: auto;
+    bottom: -40px;
+
+}
+
+/* The colour of the indicators */
+.blog .carousel-indicators li {
+    background: #a3a3a3;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+}
+
+.blog .carousel-indicators .active {
+background: #707070;
+}
+gallery-title{
+    margin-top: 100px;
+}
+.pic{
+    font-weight: bold;
+    font-size: medium;
+    font-display: center ;
+}
+.xy
+{
+    height: 400px;
+}
+.gallery_product{
+    float: left  !important ;
+    clear: both;
+}
+.menu-bar{
+    background-color: #000;
+}
+.menu-bar li {
+    color: #fff;
+}
+.about{
+    margin-top: 50px;
+    text-align: center;
+
+}
+.write{
+    text-align: justify;
+    font-style: oblique;
+}
+.one{
+    text-align: justify;
+    font-style: oblique;
+    font-size: medium;
+}
+.sub
+{
+    text-align: center;
+    font-weight: bold;
+}
+.collection{
+    font-weight: bold;
+    font-size: xx-large;
+        text-align: center;
+        line-height: normal;
+        margin-top: 30px;
+    
+}
+.table>tbody>tr>td, .table>tfoot>tr>td{
+    vertical-align: middle;
+}
+@media screen and (max-width: 600px) 
+{
+    table#cart tbody td .form-control 
+    {
+
+		
+		display: inline !important;
+    }
+}
+	.actions .btn{
+		width:36%;
+		margin:1.5em 0;
+	}
+	
+	.actions .btn-info{
+		float:left;
+	}
+	.actions .btn-danger{
+		float:right;
+	}
+	
+	table#cart thead { display: none; }
+	table#cart tbody td { display: block; padding: .6rem; min-width:320px;}
+	table#cart tbody tr td:first-child { background: #333; color: #fff; }
+	table#cart tbody td:before {
+        content: attr(data-th); 
+        font-weight: bold;
+        display: inline-block; 
+        width: 8rem;
+	}
+	
+	
+	
+    table#cart tfoot td
+    {
+        display:block; 
+    }
+    table#cart tfoot td .btn
+    {
+        display:block;
+    }
+    .ab{
+        color: azure;
+        text-align: left;
+    }
+	.w {
+        font-family: Arial, Verdana;
+        font-weight: 800;
+        font-size: 2.5rem;
+        color: #091f2f;
+        text-transform: uppercase;
+    }
+    .accordion-section .panel-default > .panel-heading {
+        border: 0;
+        background: #f4f4f4;
+        padding: 0;
+    }
+    .accordion-section .panel-default .panel-title a {
+        display: block;
+        font-style: italic;
+        font-size: 1.5rem;
+    }
+    .accordion-section .panel-default .panel-title a:after {
+        font-family: 'FontAwesome';
+        font-style: normal;
+        font-size: 3rem;
+        content: "\f106";
+        color: #1f7de2;
+        float: right;
+        margin-top: -12px;
+    }
+    .accordion-section .panel-default .panel-title a.collapsed:after {
+        content: "\f107";
+    }
+    .accordion-section .panel-default .panel-body {
+        font-size: 1.2rem;
+    }
+    .l{
+        font-weight: lighter;
+        font-style: oblique;
+        text-align: justify;
+        margin-left: 13px;
+        margin-right: 13px;
+    }
+
